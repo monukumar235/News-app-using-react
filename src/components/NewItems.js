@@ -12,7 +12,7 @@ export class NewItems extends Component {
             <p className="card-text">
               {description}............
             </p>
-            <a href={newsUrl} target="_blank" className="btn btn-primary btn-sm">
+            <a href={newsUrl} target="_blank" rel="noopener" className="btn btn-dark btn-sm">
               Read more
             </a>
           </div>
