@@ -11,7 +11,7 @@ a = 10;
     return (
      <>
      <Navbar/>
-     <News/>
+     <News pageSize={5}/>
      </>
     )
   }
